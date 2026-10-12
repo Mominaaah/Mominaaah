@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mominaaah — Digital Lab</title>
+  <desc id="desc">A dark technical canvas with lime signal paths, orbital nodes, and the words AI, speech, data, and systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111410"/>
+      <stop offset="1" stop-color="#080a08"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ccff66" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#ccff66" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#ccff66" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <circle cx="1000" cy="175" r="240" fill="url(#halo)"/>
+  <g fill="none" stroke="#ccff66" stroke-opacity=".24" stroke-width="1.2">
+    <path d="M720 42H860L900 82H1090"/>
+    <path d="M760 90H840L878 128H1150"/>
+    <path d="M780 300H870L915 255H1110"/>
+    <path d="M700 250H820L850 220H960"/>
+    <path d="M1030 45V105L1070 145V205L1120 255V320"/>
+    <path d="M930 70V120L960 150V210"/>
+  </g>
+  <g fill="#ccff66" opacity=".9">
+    <circle cx="860" cy="42" r="3"/><circle cx="1090" cy="82" r="3"/>
+    <circle cx="1150" cy="128" r="3"/><circle cx="1110" cy="255" r="3"/>
+    <circle cx="960" cy="220" r="3"/><circle cx="1030" cy="45" r="3"/>
+  </g>
+  <g transform="translate(960 176)" fill="none" stroke="#ccff66" stroke-width="1.4">
+    <ellipse rx="142" ry="55" transform="rotate(-30)" stroke-opacity=".65"/>
+    <ellipse rx="142" ry="55" transform="rotate(35)" stroke-opacity=".38"/>
+    <circle r="78" stroke-opacity=".28"/>
+    <circle r="42" stroke-opacity=".7"/>
+    <circle r="7" fill="#ccff66" stroke="none" filter="url(#glow)"/>
+    <circle r="132" stroke-dasharray="2 9" stroke-opacity=".6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g font-family="monospace" fill="#ccff66" font-size="11" letter-spacing="2">
+    <text x="58" y="54">MOMINAAAH / PERSONAL SYSTEMS LOG</text>
+    <text x="58" y="310" opacity=".8">AI  /  SPEECH  /  DATA  /  SYSTEMS</text>
+    <text x="1140" y="330" text-anchor="end" opacity=".65">EST. 2026 — ITERATING</text>
+  </g>
+  <g fill="#f2f4ec" font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="150" font-size="62" font-weight="700" letter-spacing="-2">DIGITAL</text>
+    <text x="54" y="213" font-size="62" font-weight="700" letter-spacing="-2">LAB<tspan fill="#ccff66">.</tspan></text>
+  </g>
+  <path d="M58 236H490" stroke="#ccff66" stroke-width="2"/>
+  <g font-family="monospace" font-size="13" fill="#d4d8cb">
+    <text x="58" y="267">Curiosity into working systems.</text>
+    <text x="58" y="288" fill="#a8ad9e">Build small. Test honestly. Learn continuously.</text>
+  </g>
+  <g fill="#ccff66" opacity=".8">
+    <rect x="58" y="326" width="26" height="3"/><rect x="90" y="326" width="8" height="3" opacity=".5"/><rect x="104" y="326" width="14" height="3" opacity=".25"/>
+  </g>
+</svg>
